@@ -1,0 +1,150 @@
+body{
+    margin:0;
+    padding:0;
+        background:#111;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile{
+    margin:90px auto;
+    color:#fff;
+}
+.container{
+    max-width:1350px;
+    margin: auto;
+    display:flex;
+    justify-content:space-around;
+    text-align:center;
+}
+.col{
+  max-width:500px;
+  padding:10px;
+  margin:10px;
+}
+
+.profile hr{
+    width: 85px;
+    margin: auto;
+    margin-top:5px;
+    border-color:rgb(255, 145, 54);
+}
+.title{
+    margin-top:10px;
+ font-size:48px;
+ font-weight:500;
+}
+.subtitle{
+    color:#bbb;
+  margin-top:15px;
+  font-size:28px;
+  font-weight:400;
+}
+p{
+    color:#bbb;
+
+}
+
+.main{
+    padding-top:20px;
+    margin:90px auto;
+    background:#fff;
+}
+
+.main .subtitle{
+    margin:30px auto;
+    text-align:center;
+    color:#333;
+    font-weight:600;
+}
+.main hr{
+    width: 80px;
+    margin: auto;
+    margin-top:10px;
+    border-color:rgb(255, 145, 54);
+}
+.main img{
+    width:600px;
+    margin-top:15px;
+    
+  }
+  .about{
+    margin:90px auto;
+    color:#fff;
+  }
+  .about .title{
+    color:#fff;
+    margin-top:15px;
+    font-size:35px;
+    font-weight:600;
+  }
+  .about .title hr{
+    width: 80px;
+    margin: auto;
+    margin-top:10px;
+    border-color:rgb(255, 145, 54);
+  }
+  .about-col
+  {
+  max-width:800px;
+  padding:10px;
+  margin:10px;
+  }
+  .about p{
+    font-size:18px;
+    text-align:justify;
+    line-height:1.5;
+    padding:5px;
+    color:#fff;
+  }
+
+  .about  hr{
+    margin: auto;
+    width:60%;
+    margin-top:20px;
+  }
+  .about h2{
+    font-size:18px;
+    text-align:center;
+    font-weight:400;
+    color:#bbb;
+  }
+  .about a
+  {
+    color:#2c77df;
+  }
+
+  @media (max-width: 730px) {
+ .main img{
+    width:300px;
+    margin-top:10px;
+    
+  }
+  .container{
+    display:block;
+    justify-content:center;
+}
+.title{
+    margin-top:10px;
+ font-size:35px;
+ font-weight:500;
+}
+.subtitle{
+    color:#bbb;
+  margin-top:15px;
+  font-size:22px;
+  font-weight:400;
+}
+.about p{
+    font-size:14px;
+    text-align:justify;
+    line-height:1.5;
+    padding:8px;
+    color:#fff;
+  }
+  .about h2{
+    font-size:16px;
+    text-align:center;
+    font-weight:400;
+    color:#bbb;
+  }
+  }
